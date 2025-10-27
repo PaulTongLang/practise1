@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Run basic check
-        run: echo "✅ CI pipeline ran successfully — no Node.js build required"
+        run: echo "CI pipeline ran successfully — no Node.js build required"
